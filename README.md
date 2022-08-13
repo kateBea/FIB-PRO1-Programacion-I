@@ -8,13 +8,27 @@ Algunos recursos para consultas:
 - [Manual de referencia II](https://cplusplus.com/)
 
 Estructura general códigos PRO1:
-```
+```cc
+// inclusiones de headers
 #include <iostream>
 #include <vector>
 #include <string>
-// resto de includes
 
+// importar símbolos de la librería estándard
+// a este espacio de nombres (permite usar cout en vez de std::cout)
 using namespace std;
+
 // Definiciones de tipos
 typedef vector<int> matriz_t;
+
+// definiciones de funciones
+int suma(int x, int y) {
+  return x + y;
+}
+
+int main() {
+  //código aquí
+  cout << "Dentro del main" << endl;
+  return 0;
+}
 ```
