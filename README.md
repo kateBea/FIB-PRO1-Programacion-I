@@ -32,3 +32,10 @@ int main() {
   return 0;
 }
 ```
+
+Compilar y linkado usando linux (G++):
+```shell
+cd <directorio_de_my_programa>
+g++ my_programa.cc -o nombre_programa
+./nombre_programa
+```
