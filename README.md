@@ -39,3 +39,9 @@ cd <directorio_de_mi_programa>
 g++ my_programa.cc -o nombre_programa
 ./nombre_programa
 ```
+>>> Para compilar usando el estándard 11 de C++ (C++11), usar parámetro ``-std=c++11``
+
+cd <directorio_de_mi_programa>
+g++ my_programa.cc -o nombre_programa -std=c++11
+./nombre_programa
+```
