@@ -29,10 +29,11 @@ int suma(int x, int y) {
 
 int main() {
   //código aquí
+  cout << "Dentro del main" << endl;
   
   enteros_t mi_lista{1, 2, 3};
   matriz_t mi_matriz{{}, {1, 2, 5}};
-  cout << "Dentro del main" << endl;
+  
   return 0;
 }
 ```
