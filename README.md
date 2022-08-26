@@ -19,7 +19,8 @@ Estructura general códigos PRO1:
 using namespace std;
 
 // Definiciones de tipos
-typedef vector<int> matriz_t;
+typedef vector<int> enteros_t;
+using matriz_t = vector<enteros_t>;
 
 // definiciones de funciones
 int suma(int x, int y) {
@@ -28,6 +29,9 @@ int suma(int x, int y) {
 
 int main() {
   //código aquí
+  
+  enteros_t mi_lista{1, 2, 3};
+  matriz_t mi_matriz{{}, {1, 2, 5}};
   cout << "Dentro del main" << endl;
   return 0;
 }
