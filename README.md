@@ -20,7 +20,7 @@ using namespace std;
 
 // Definiciones de tipos
 typedef vector<int> enteros_t;
-using matriz_t = vector<enteros_t>;
+typedef vector<enteros_t> matriz_t;
 
 // definiciones de funciones
 int suma(int x, int y) {
