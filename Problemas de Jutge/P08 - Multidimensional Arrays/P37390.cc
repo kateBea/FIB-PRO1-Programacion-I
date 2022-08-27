@@ -7,8 +7,6 @@ using namespace std;
 typedef vector< vector<int> > Matrix;
 typedef vector<int> Row;
 
-//funcio de tipus de Matrix que retorna el producte de dos matrius
-//prcondicio: matrius a i b son cuadrades (n*n amb n >= 0)
 Matrix product(const Matrix& a, const Matrix& b) {
     int nxn = a.size();
     Matrix product(nxn, Row(nxn));
